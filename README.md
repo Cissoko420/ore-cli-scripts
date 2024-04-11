@@ -9,7 +9,7 @@ Bash scripts to automate ore mining
 
 This scripts presumes that you already have the miners running beforehand, they will not run the miners for you, haven't added a script for that yet
 
-If you would like to suport: Cissoko420.sol
+*If you would like to suport: Cissoko420.sol*
 
 ## balance.sh
 ![image](https://github.com/Cissoko420/ore-cli/assets/59943539/322f811e-acd6-46f4-9622-6cd450de8441)
