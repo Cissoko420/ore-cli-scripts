@@ -10,7 +10,7 @@ Simple bash scripts to automate ore mining (Generate Keypairs/Claim/Mass Transfe
 This scripts presumes that you already have the miners running beforehand, they will not run the miners for you, haven't added a script for that yet
 
 
-**If you would like to suport:** *Cissoko420.sol*
+**If you would like to support:** *Cissoko420.sol*
 
 ## Previews
 ### balance.sh
