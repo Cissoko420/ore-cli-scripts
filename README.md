@@ -1,5 +1,5 @@
 # ore-cli
-Bash scripts to automate ore mining
+Simple bash scripts to automate ore mining (Generate Keypairs/Claim/Mass Transfer/Check Balances/Auto Fund Miners)
 
 ## SetUp
   1) Add id.json (Miner privatekey) files to ids/ folder or just run generateWallets.sh
