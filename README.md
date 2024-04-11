@@ -1,6 +1,16 @@
 # ore-cli
 Bash scripts to automate ore mining
 
+## SetUp
+  1) Add id.json (Miner privatekey) files to ids/ folder or just run generateWallets.sh
+  2) Add wallet privatekey that will receive ORE and fund miners to claimed.json
+  3) Run the scripts in seperate terminals/instances
+  4) Watch the magic happen
+
+This scripts presumes that you already have the miners running beforehand, they will not run the miners for you, haven't added a script for that yet
+
+If you would like to suport: Cissoko420.sol
+
 ## balance.sh
 ![image](https://github.com/Cissoko420/ore-cli/assets/59943539/322f811e-acd6-46f4-9622-6cd450de8441)
 
