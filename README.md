@@ -4,8 +4,9 @@ Simple bash scripts to automate ore mining (Generate Keypairs/Claim/Mass Transfe
 ## SetUp
   1) Add id.json (Miner privatekey) files to ids/ folder or just run generateWallets.sh
   2) Add wallet privatekey that will receive ORE and fund miners to claimed.json
-  3) Run the scripts in seperate terminals/instances
-  4) Watch the magic happen
+  3) Change Variables in the different scripts
+  4) Run the scripts in separate terminals/instances
+  5) Watch the magic happen
 
 This scripts presumes that you already have the miners running beforehand, they will not run the miners for you, haven't added a script for that yet
 
