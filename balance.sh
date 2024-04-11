@@ -4,6 +4,8 @@
 # @Last Modified time: 2024-04-10 05:06:10
 #!/bin/bash
 
+# View balance in a table format, make sure to have claimed.json in 'ids/' folder
+
 csv_file="miners_data.csv"
 echo "  Miner,     ORE, Value (Usdc)" > "$csv_file"
 echo "Checking unclaimed balances..."
