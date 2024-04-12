@@ -16,7 +16,7 @@ concatenated_file="private_keys.txt"
 mkdir -p "$private_key_dir"
 
 clear
-for ((i=11; i<=$num_wallets; i++)); do
+for ((i=1; i<=$num_wallets; i++)); do
     echo "Generating wallet $i..."
     solana-keygen new --outfile "$private_key_dir/id$i.json" --no-passphrase >/dev/null 2>&1
 done
