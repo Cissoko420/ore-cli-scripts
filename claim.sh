@@ -6,6 +6,8 @@
 
 # Auto-claim miners if balance is over MIN_BALANCE
 
+nr_wallets=11
+
 MIN_BALANCE="0.01"
 FEE="100000"
 RPC_URL="https://api.mainnet-beta.solana.com/" 
@@ -14,7 +16,7 @@ clear
 echo "Checking the unclaimed balance..."
 
 while true; do
-    for i in {1..11}; do
+    for ((i=1;i<=nr_wallets;i++)); do
         balance=$(ore --keypair ~/.config/solana/ids/id$i.json rewards | grep -oP '^\d+(.\d+)?(?= ORE)')
 
         if [ ! -z "$balance" ] && [ "$(echo "$balance > $MIN_BALANCE" | bc)" -eq 1 ]; then
