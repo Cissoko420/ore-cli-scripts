@@ -28,3 +28,6 @@ This scripts presumes that you already have the miners running beforehand, they 
 
 ### transfer.sh
 ![image](https://github.com/Cissoko420/ore-cli/assets/59943539/e265021e-1dc6-4e57-906a-b4283794146d)
+
+### transferSol.sh
+![image](https://github.com/Cissoko420/ore-cli-scripts/assets/59943539/b1e753da-88a0-4ee0-ac18-3ba697fa2e5a)
