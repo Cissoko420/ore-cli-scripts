@@ -4,6 +4,8 @@
 # @Last Modified time: 2024-04-16 11:30:15
 #!/bin/bash
 
+# Transfer all SOL from miners to single wallet
+
 receiver_wallet="WALLET ADDRESS"
 
 nr_wallets=11
