@@ -9,7 +9,7 @@ for((i=4;i<=nr_wallets;i++)); do
 	if [ ! -z "$balance" ] && [ "$(echo "balance == 0" | bc)" -eq 1 ]; then
 		echo "ID$i balance: $balance ORE - Close account"
 		solana config set --keypair /root/.config/solana/ids/id$i.json
-		spl-token close --fee-payer /root/.config/solana/ids/id$i.json oreoN2tQbHXVaZsr3pf66A48miqcBXCDJozganhEJgz --owner /root/.config/solana/id$i.json
+		spl-token close --fee-payer /root/.config/solana/ids/id$i.json oreoN2tQbHXVaZsr3pf66A48miqcBXCDJozganhEJgz --owner /root/.config/solana/ids/id$i.json
 		echo ""
 		sleep 2
 	else
